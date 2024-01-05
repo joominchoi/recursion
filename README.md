@@ -13,3 +13,15 @@ Assignment 2
 ## Thoughts
 
 ## Learnings
+- The slice method in JavaScript is used to extract a portion of an array and returns it as a new array. It doesn't modify the original array but creates a shallow copy of the selected elements.
+  - const originalArray = [1, 2, 3, 4, 5];
+  - const slicedArray1 = originalArray.slice(1, 4);
+    - console.log(slicedArray1); // Output: [2, 3, 4]
+    - startIndex is included, endIndex is not included
+  - const slicedArray2 = originalArray.slice(2);
+    - console.log(slicedArray2); // Output: [3, 4, 5]
+  - const slicedArray3 = originalArray.slice(-2);
+    - console.log(slicedArray3); // Output: [4, 5]
+- .reduce((accumulator, currentValue) => accumulator + currentValue, 0):
+  - The reduce method is used to accumulate (reduce) the array to a single value. It takes a callback function as its first argument and an initial value (0 in this case) as its second argument.
+
