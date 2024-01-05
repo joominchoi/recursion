@@ -24,4 +24,4 @@ Assignment 2
     - console.log(slicedArray3); // Output: [4, 5]
 - .reduce((accumulator, currentValue) => accumulator + currentValue, 0):
   - The reduce method is used to accumulate (reduce) the array to a single value. It takes a callback function as its first argument and an initial value (0 in this case) as its second argument.
-
+- Merge Sort algorithm
